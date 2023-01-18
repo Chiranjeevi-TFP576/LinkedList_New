@@ -50,5 +50,19 @@ namespace LinkedList_Demo
             this.head = this.head.next;
             return this.head;
         }
+        internal Node RemovaLastNode()
+        {
+            if (head == null)
+                return null;
+            if (head.next == null)
+                return null;
+            Node newNode = head;
+            while (newNode.next.next != null)
+            {
+                newNode = newNode.next;
+            }
+            newNode.next = null;
+            return head;
+        }
     }
 }

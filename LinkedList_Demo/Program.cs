@@ -9,8 +9,10 @@
             list.Add(30);
             list.Add(70);
             list.Display();
-            list.RemoveFirstNode();
-            \n list.Display();
+            //list.RemoveFirstNode();
+            //list.Display();
+            list.RemovaLastNode();
+            list.Display();
             Console.ReadKey();
         }
     }
