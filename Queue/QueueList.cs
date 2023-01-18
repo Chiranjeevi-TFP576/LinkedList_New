@@ -45,5 +45,18 @@ namespace Queue
                 temp = temp.next;
             }
         }
+        internal void Dequeu()
+        {
+            if (head == null)
+            {
+                Console.WriteLine("Queue is empty");
+            }
+            else
+            {
+                Console.WriteLine("The Deque element is : " + head.data);
+                head = head.next;
+
+            }
+        }
     }
 }
