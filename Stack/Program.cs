@@ -10,6 +10,12 @@
             stacklinked.Push(70);
             stacklinked.Push(30);
             stacklinked.Push(56);
+            stacklinked.Display();
+            stacklinked.Peek(); 
+            stacklinked.Pop();
+            stacklinked.IsEmpty();
+            stacklinked.Display();
+            Console.ReadKey();
         }
     }
 }
